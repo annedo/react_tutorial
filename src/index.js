@@ -97,7 +97,7 @@ class Game extends React.Component {
     this.setState({
       history: history.concat([{
         squares: currSquares,
-        lastMove: "("+ (square.row + 1) + "," + (square.col + 1) +")",
+        lastMove: "("+ (square.col + 1) + "," + (square.row + 1) +")",
       }]),
       stepNumber: history.length,
       xIsNext: !this.state.xIsNext,

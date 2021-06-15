@@ -9,6 +9,7 @@ ol, ul {
 
 .game-board {
   display: flex;
+  /* Change to column if you want numbering starting from top left, column-reverse if starting from bottom left */
   flex-flow: column-reverse;
 }
 
